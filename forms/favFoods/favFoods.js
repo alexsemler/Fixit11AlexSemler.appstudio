@@ -6,6 +6,7 @@ btnNextForm.onclick=function(){
 
 
 favFoods.onshow=function(){
+    listFood.clear()
     for (i = 0; i <= goodFoods.length - 1; i++) 
         listFood.addItem(goodFoods[i])
 }
